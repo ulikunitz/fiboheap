@@ -1,6 +1,6 @@
 // Package fiboheap is an alternative implementation of a priority queue
 // using Fibonacci Heaps. While the ExtracMin method requires O(log n)
-// complexity all others have complexity O(n).
+// complexity all others have time complexity O(1).
 //
 // The items stored in the heap must satisfy the Sortable interface
 // requiring a Less function. Nothing more is needed.
