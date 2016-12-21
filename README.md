@@ -11,7 +11,13 @@ storing and extraction operation requires O(log n). It has however lower
 memory overhead than the Fibonacci Heap. This implementation requires an
 internal node structure of 56 bytes per item.
 
-Here is the example:
+## Install
+
+```
+    go get -u github.com/ulikunitz/fiboheap
+```
+
+## Example
 
 ```
 import "fmt"
