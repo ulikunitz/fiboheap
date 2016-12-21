@@ -19,7 +19,7 @@ internal node structure of 56 bytes per item.
 
 ## Example
 
-```
+```go
 import "fmt"
 
 type IntSortable int
