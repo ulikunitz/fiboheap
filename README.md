@@ -2,14 +2,14 @@
 
 The package provides a Go implementation of the Fibonacci heaps. It
 requires the items to be stored in the heap to support a single Less
-method. Beside extracing the minimum, which is a O(log n) operation, all
+method. Beside extracting the minimum, which is an O(log n) operation, all
 methods have time complexity O(1).
 
 The standard library heap implementation is based on binary trees
 requires a container type implementation supporting five methods. The
-storing and extraction operation requires O(log n). It has however lower 
-memory overhead than the Fibonacci Heap. This implementation requires an
-internal node structure of 56 bytes per item.
+storing and extraction operation has a time complexity of O(log n). It
+has however lower memory overhead than the Fibonacci Heap. The fiboheap
+implementation requires an internal node structure of 56 bytes per item.
 
 ## Install
 
