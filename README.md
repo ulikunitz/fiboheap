@@ -14,7 +14,7 @@ internal node structure of 56 bytes per item.
 ## Install
 
 ```
-    go get -u github.com/ulikunitz/fiboheap
+go get -u github.com/ulikunitz/fiboheap
 ```
 
 ## Example
